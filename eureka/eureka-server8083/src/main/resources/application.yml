@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: eurekaServer8083
+  client:
+    registerWithEureka: false #不向注册中心注册自己
+    fetchRegistry: false  #不拉取服务，只维护服务实例
+    serviceUrl:
+      defaultZone: http://eurekaServer8083:8083/eureka/,http://eurekaServer8080:8080/eureka/
+
+spring:
+  application:
+    name: eurekaServer8083

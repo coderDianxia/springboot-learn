@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client8082" />
+        <module name="eureka-server8083" />
+        <module name="eureka-client8081" />
+        <module name="eureka-server8080" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka" options="-parameters" />
+      <module name="eureka-client8081" options="-parameters" />
+      <module name="eureka-client8082" options="-parameters" />
+      <module name="eureka-server8080" options="-parameters" />
+      <module name="eureka-server8083" options="-parameters" />
+      <module name="springboot-wzx" options="" />
+    </option>
+  </component>
+</project>
