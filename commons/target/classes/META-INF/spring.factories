@@ -1,0 +1,6 @@
+org.springframework.context.ApplicationListener=\
+com.wzx.listener.TestApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+ com.wzx.listener.TestSpringApplicationRunListener
+
